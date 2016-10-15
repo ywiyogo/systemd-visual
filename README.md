@@ -8,3 +8,7 @@
 # Usage
 
     python visualizeDot_d3plus.py <generated_dot_file>
+
+#Screenshot
+
+![alt text](./screenshot.png "systemd visualization")
