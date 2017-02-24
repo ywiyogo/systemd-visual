@@ -65,7 +65,7 @@ with open("d3plus_network_template.html", "r") as templFile:
 # Substitute the template content
 htmlContent = re.sub(r'var nodes = (.*)', "var nodes = "+str(ldNodes), htmlContent)
 htmlContent = re.sub(r'var connections = (.*)', "var connections = "+str(ldConnections), htmlContent)
-print htmlContent
+print(htmlContent)
 # Write in on another file
 with open("d3plus_network.html", "w") as templFile:
    templFile.write(htmlContent)
